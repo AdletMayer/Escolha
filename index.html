@@ -14,21 +14,19 @@
     cursor: pointer;
 
 }
-.botao:hover{
-    background: yellowgreen !important;
-}
+
 #sim {
     position: absolute;
   top: 50%;
   left: 45%;
   transform: translate(-50%, -50%);
 
-    background: linear-gradient(270deg, #ec0fe4, #ac5417);
+    background: linear-gradient(270deg, #5edf08, #20a106);
     background-size: 400% 400%;
 
-    -webkit-animation: AnimationName 38s ease infinite;
-    -moz-animation: AnimationName 38s ease infinite;
-    animation: AnimationName 38s ease infinite;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -91,6 +89,11 @@
     top: 65%;  
     left: 50%; 
   }
+}
+@media screen and (min-width: 900px) {
+    .botao:hover{
+    background: rgb(181, 168, 211) !important;
+}
 }
 </style>
 </head>
